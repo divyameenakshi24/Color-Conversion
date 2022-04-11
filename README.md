@@ -32,7 +32,7 @@ End the program and close the output image windows.
 # i) Convert BGR and RGB to HSV and GRAY
 
 import cv2
-color_image = cv2.imread('cap vs tony.jpg')
+color_image = cv2.imread('cat.jpg')
 cv2.imshow('Original image',color_image)
 hsv_image = cv2.cvtColor(color_image, cv2.COLOR_BGR2HSV)
 cv2.imshow('BGR2HSV' ,hsv_image )
@@ -109,24 +109,37 @@ cv2.destoryAllWindows()
 ```
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-<br>
-<br>
+![3 1](https://user-images.githubusercontent.com/75235402/162799412-75552f42-c205-46c4-9c15-d7a76b79b64e.JPG)
+![3 2](https://user-images.githubusercontent.com/75235402/162799422-18bd95c9-8882-4183-9a69-5a883ed6bce8.JPG)
+![3 3](https://user-images.githubusercontent.com/75235402/162799749-ca290b23-e8b3-44a4-8ed0-8778a77182d8.JPG)
+
 
 ### ii) HSV to RGB and BGR
-<br>
-<br>
+![3 5](https://user-images.githubusercontent.com/75235402/162799879-4fcf4707-d80e-43e7-a2f0-4121bad51f2e.JPG)
+![3 6](https://user-images.githubusercontent.com/75235402/162799887-642cc672-fcda-4adb-a6dc-fc8469e2719e.JPG)
+
 
 ### iii) RGB and BGR to YCrCb
-<br>
-<br>
+![3 8](https://user-images.githubusercontent.com/75235402/162800108-1e0caa3c-68cb-4556-ba95-784464d6b0a4.JPG)
+![3 9](https://user-images.githubusercontent.com/75235402/162800112-08b56205-e5d9-4169-8a92-21ca87ee59f2.JPG)
+
+
+
 
 ### iv) Split and merge RGB Image
-<br>
-<br>
+![3 10](https://user-images.githubusercontent.com/75235402/162800532-78985c39-713f-48cf-945c-c9b8f571439d.JPG)
+![3 11](https://user-images.githubusercontent.com/75235402/162800597-4d038e0e-3449-498b-b66e-5880f3a9a2b7.JPG)
+![3 12](https://user-images.githubusercontent.com/75235402/162800649-e89bcb80-252a-44f1-845a-8aac085a8e9a.JPG)
+![3 13](https://user-images.githubusercontent.com/75235402/162800701-9df5d7c2-1f3e-4f52-933c-501a63aa5ed9.JPG)
+
+
 
 ### v) Split and merge HSV Image
-<br>
-<br>
+![3 14](https://user-images.githubusercontent.com/75235402/162800726-70fc4290-092d-4b7a-8add-e1a137ead882.JPG)
+![3 15](https://user-images.githubusercontent.com/75235402/162800755-b4596fad-741a-4452-832c-09d6884140f2.JPG)
+![3 16](https://user-images.githubusercontent.com/75235402/162800774-97728d47-0788-4455-8f32-f50a37ccb9d6.JPG)
+![3 17](https://user-images.githubusercontent.com/75235402/162800786-a8b6e389-b1a6-42e0-9098-beca01a92b7a.JPG)
+
 
 
 ## Result:
