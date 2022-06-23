@@ -6,29 +6,24 @@ To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 Anaconda - Python 3.7
 ## Algorithm:
 ### Step1:
-<br>
 Import cv2 and save and image as filename.jpg
 
 ### Step2:
-<br>
 Use imread(filename, flags) to read the file.
 
 ### Step3:
-<br>
 Use cv2.cvtColor(src, code, dst, dstCn) to convert an image from one color space to another
 
 ### Step4:
-<br>
 Split and merge the image using cv2.split and cv2.merge commands
 
 ### Step5:
-<br>
 End the program and close the output image windows.
 
 ## Program:
+### Developed By:A.Divya Meenakshi
+### Register Number:212220230014
 ```python
-# Developed By:A.Divya Meenakshi
-# Register Number:212220230014
 # i) Convert BGR and RGB to HSV and GRAY
 
 import cv2
@@ -107,6 +102,39 @@ cv2.destoryAllWindows()
 
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 ![3 1](https://user-images.githubusercontent.com/75235402/162799412-75552f42-c205-46c4-9c15-d7a76b79b64e.JPG)
