@@ -36,9 +36,6 @@ cv2.imshow('RGB2GRAY', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 
-
-
-
 # ii)Convert HSV to RGB and BGR
 
 import cv2
@@ -49,10 +46,7 @@ cv2.imshow('HSV2RGB' ,hsv_image )
 gray_image1 = cv2.cvtColor (color_image, cv2.COLOR_HSV2BGR)
 cv2.imshow('HSV2BGR', gray_image1)
 cv2.waitKey(0)
-cv2. destroyAllWindows(
-
-
-
+cv2. destroyAllWindows()
 
 # iii)Convert RGB and BGR to YCrCb
 
@@ -65,8 +59,6 @@ gray_image1 = cv2.cvtColor (color_image, cv2.COLOR_BGR2YCrCb)
 cv2.imshow('BGR2YCrCb', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
-
-
 
 # iv)Split and Merge RGB Image
 
@@ -98,42 +90,7 @@ Merged_HSV = cv2.merge((h,s,v))
 cv2.imshow('Merged HSV Image',Merged_HSV)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
-
-
-
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 ![3 1](https://user-images.githubusercontent.com/75235402/162799412-75552f42-c205-46c4-9c15-d7a76b79b64e.JPG)
