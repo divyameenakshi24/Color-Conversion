@@ -132,12 +132,6 @@ cv2.destoryAllWindows()
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 ## Output:
